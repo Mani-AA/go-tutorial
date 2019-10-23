@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("hello, world\n")
+	var x float64 = 20.0
+	fmt.Println(x)
+	fmt.Printf("x is of type %T\n", x)
 }
